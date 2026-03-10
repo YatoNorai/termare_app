@@ -32,7 +32,7 @@ class _DownloadFileState extends State<_DownloadFile> {
   Response<String> response;
   final String filesPath = RuntimeEnvir.usrPath;
   List<String> androidAdbFiles = [
-    'https://github.com/edeegg/termux-packages/releases/download/bootstrap-2025.05.01-r1%2Bapt-android-7/bootstrap-aarch64.zip'
+    'https://github.com/termux/termux-packages/releases/download/bootstrap-2026.03.08-r1%2Bapt.android-7/bootstrap-aarch64.zip'
     //'https://github.com/termux/termux-packages/releases/download/bootstrap-2025.04.27-r1%2Bapt.android-7/bootstrap-aarch64.zip'
   //  'https://nightmare-my.oss-cn-beijing.aliyuncs.com/Termare/bootstrap-aarch64.zip',
   ];
